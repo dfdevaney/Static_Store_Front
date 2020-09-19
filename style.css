@@ -1,0 +1,67 @@
+.nav
+{
+    z-index: 1;
+    position: fixed;
+    top: 0%;
+    width: 99%;
+    height: 100px;
+    text-align: center;
+    background-color: rgb(34, 228, 60);
+    border: 3px solid navy;
+}
+.circle
+{
+    border-radius: 40px;
+}
+.icons
+{
+    object-position: center;
+}
+.full
+{
+    background-image:url("./images/yo_yo_wallpaper.jpg");
+
+}
+.main
+{
+    margin-top: 100px;
+    background-image: url("./images/yo_yo_purple.jpg");
+    position: static;
+    margin-left: 10%;
+    margin-right: 25%;
+    padding: 10px 10px 10px 10px;
+}
+.side_l
+{
+    z-index: 2;
+    top: 102px;
+    float: left;
+    position: absolute;
+    display: block;
+    border: black solid 3px;
+    text-align: left;
+    background-color: rgb(31, 238, 238, .75);
+    height: 100%;
+    width: 10%;
+}
+.side_2
+{
+    position: absolute;
+    left: 73%;
+    top: 102px;
+    border: black solid 3px;
+    text-align: left;
+    background-color: rgba(174, 24, 233, 0.7);
+    width: 25%;
+    margin: 1em 0 0 1em;
+    padding: 1em 0.5em 1em .5em;
+}
+.end
+{
+    width: 100%;
+    height: 5em;
+    position: relative;
+    display: inline-block;
+    background-color: pink;
+    border: black solid 2px;
+}
